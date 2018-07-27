@@ -1,0 +1,33 @@
+* {
+    outline: 1px solid red;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.main-logo-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 3em;
+}
+
+.main-ul-pos {
+    display: flex;
+    align-items: center;
+}
+
+.main-lis-pos {
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
