@@ -73,7 +73,7 @@ a:active {
 }
 
 .bg-forest {
-    background-image: url('assets/images/forest.jpg');
+    background-image: url('/assets/images/forest.jpg');
 }
 
 .texty {
