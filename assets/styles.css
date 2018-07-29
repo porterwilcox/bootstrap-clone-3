@@ -73,7 +73,7 @@ a:active {
 }
 
 .bg-forest {
-    background-image: url('/assets/images/forest.jpg');
+    background-image: url('https://github.com/porterwilcox/bootstrap-clone-3/blob/master/assets/images/forest.jpg?raw=true');
 }
 
 .texty {
