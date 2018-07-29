@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 .h100 {
     height: 100%;
@@ -10,13 +10,21 @@
     width: 100%;
 }
 
+.bg-blue {
+    background: linear-gradient(270deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 75%, rgb(97, 161, 182));
+}
+
 .main-logo-pos {
     display: flex;
     justify-content: center;
 }
 
-.icon {
+.main-icon {
     font-size: 3em;
+    color: gold;
+    border-radius: 45%;
+    background-color: rgb(250, 250, 143); 
+    box-shadow: 0 0 10px 15px rgb(248, 248, 200);
 }
 
 .main-ul-pos {
@@ -30,4 +38,12 @@
     align-items: center;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+.bg-forest {
+    background-image: url('/assets/images/forest.jpg');
+}
+
+.white {
+    color: white;
 }
