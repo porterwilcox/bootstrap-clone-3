@@ -66,5 +66,14 @@
     background: linear-gradient(0deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 75%, rgb(97, 161, 182));
 }
 
+.main-lis-pos {
+    justify-content: flex-start;
+}
+
+li {
+    padding-left: 1em;
+}
+
+
 
 }
