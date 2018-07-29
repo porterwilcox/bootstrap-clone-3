@@ -10,9 +10,15 @@
     width: 100%;
 }
 
+.pt-10 {
+    padding-top: 10em;
+}
+
 .bg-blue {
     background: linear-gradient(270deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 75%, rgb(97, 161, 182));
 }
+
+
 
 .main-logo-pos {
     display: flex;
@@ -46,4 +52,19 @@
 
 .white {
     color: white;
+}
+
+
+
+
+
+
+/* Mobile */
+@media(max-width: 1080px) {
+
+.bg-blue {
+    background: linear-gradient(0deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 75%, rgb(97, 161, 182));
+}
+
+
 }
