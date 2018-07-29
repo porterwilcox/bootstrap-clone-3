@@ -10,15 +10,21 @@
     width: 100%;
 }
 
-.pt-10 {
-    padding-top: 10em;
+.title-pad {
+    padding: 20em 0 10em
 }
 
 .bg-blue {
     background: linear-gradient(270deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 75%, rgb(97, 161, 182));
 }
 
+.bg-black {
+    background-color: rgb(26, 20, 20);
+}
 
+.white {
+    color: white;
+}
 
 .main-logo-pos {
     display: flex;
@@ -46,12 +52,25 @@
     list-style-type: none;
 }
 
+a:link {
+    color: white;
+}
+
+a:hover {
+    font-size: 1.2em;
+}
+
+a:visited {
+    color: white;
+}
+
 .bg-forest {
     background-image: url('/assets/images/forest.jpg');
 }
 
-.white {
-    color: white;
+.texty {
+    font-size: 1.5em;
+    padding: 6em 0;
 }
 
 
