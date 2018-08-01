@@ -66,6 +66,7 @@ a:link {
 
 a:hover {
     text-transform: uppercase;
+    text-decoration-line: none;
 }
 
 a:visited {
@@ -101,8 +102,8 @@ a:active {
 
 .rec-title {
     position: relative;
-    bottom: 5em;
-    left: .5em;
+    bottom: 6em;
+    left: 1em;
     border-bottom: 2px solid rgb(3, 3, 110);
     width: fit-content;
 }
@@ -152,5 +153,8 @@ li {
     left: 1em;
 }
 
+.a:hover {
+    text-transform: none;
+}
 
 }
